@@ -1,1 +1,129 @@
-/* You can add global styles to this file, and also import other style files */
+body, html {
+    height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+}
+body {
+    background: linear-gradient(180deg, #E5EFFF 0%, rgba(229, 239, 255, 0.262661) 83.7%, rgba(229, 239, 255, 0) 100%);
+    font-family: 'Work Sans', sans-serif!important;
+}
+
+.abs-center-x {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.rel-center-y {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+$dark: #272d4e;
+$gray: #94A2B3;
+.vector {
+    color: #fff;
+    position: absolute;
+    top: -80px;
+    right: -100px;
+    width: 40%;
+    float: right;
+    z-index: -1;
+}
+
+nav  {
+    height: 5rem;
+    transition: 0.7s;
+    background-color: transparent!important;
+    padding: 0;
+}
+
+.navbar-brand {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.navbar-brand img {
+    height: 36px;
+    width: 36px;
+    margin-bottom: 3px;
+}
+.navbar-brand span {
+    margin-left: 12px;
+}
+
+
+.nav-item:not(.first-nav) {
+    margin-left: 40px;
+}
+
+a.nav-link, a.nav-link:hover {
+    color: $dark;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+.dark {
+    color: $dark;
+}
+
+#footer {
+    background-color: #7854f7;
+    overflow: hidden;
+    padding: 38px 0 36px 12%;
+    position: relative;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+.logo-container img {
+    width: 54px;
+}
+.logo-container span {
+    color: #fff;
+    font-size: 36px;
+    margin-left: 8px;
+}
+
+.sn-container {
+    margin-top: 26px;
+}
+
+.sn-container a { 
+    margin-right: 24px;
+}
+
+.tp {
+    color: #fff;
+    margin-top: 32px;
+}
+
+.tp a, .tp a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+.contact {
+    color: #fff;
+    position: absolute;
+    top: 81px;
+    right: 12%;
+}
+
+.contact a, .contact a:hover {
+    color: inherit;
+    font-size: 32px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.contact p {
+    font-weight: 400;
+}

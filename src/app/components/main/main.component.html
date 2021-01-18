@@ -1,0 +1,121 @@
+<div class="container app-description">
+    <div class="row">
+        <div class="col-lg-7 col-sm-12 col-description">
+            <h1 class="heading-description dark">Become more self-aware. Gain clarity about your life. Make better choices every day.</h1>
+            <h2 class="text-description">AdviseMe is a new and unbelievably accurate self-discovery app that offers unique and tailored personality reports, complemented by weekly personalized love, career, and self-care advice, all designed to help you find the solutions to those questions that just seem to drain your energy</h2>
+            <a class="d-button" href="https://apps.apple.com/app/adviseme-life-advisor-coach/id1536711786"><img src="assets/AppStore.svg" alt="Download on the App Store"></a>
+        </div>
+        <div class="col-lg-5 col-sm-12">
+            <img class="phone-preview" src="assets/phone-preview.png" alt="App Preview">
+        </div>
+    </div>
+</div>
+<div class="mission">
+    <div class="container">
+        <div class="row first">
+            <div class="col-lg-5 col-sm-12">
+                <img class="mission-image" src="assets/celebration.svg">
+            </div>
+            <div class="col-lg-7 col-sm-12">
+                <div class="text-container rel-center-y">
+                    <p class="heading-mission">Our Mission</p>
+                    <p class="text-mission">We aim to help you gain more clarity about your life. It’s easy to waste time running in the wrong direction when you do not take time to evaluate where you want to go. We believe that you will get valuable insights on all areas of your life, which will make it easier for you to sort out your goals and make a clear action plan.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-lg-5 order-lg-2">
+                <img class="mission-image"src="assets/personcheck.svg">
+            </div>
+            <div class="col-sm-12 col-lg-7">
+                <div class="text-container rel-center-y">
+                    <p class="heading-mission">What you will get</p>
+                    <p class="text-mission">Start exploring yourself today! Our reports offer you an in-depth “life” analysis, including personality, career, love, and spiritual matters. Find insights on life’s most important questions like career opportunities, love preferences and many others.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="features">
+    <p class="heading-features">Features</p>
+    <div class="custom-carousel">
+        <div class="carousel-selectors">
+            <span id="0_" class="selector" [class.selected]="this.currentCategory == 0" (click)="this.currentCategory = 0">Reports</span>
+            <span id="1_" class="selector" [class.selected]="this.currentCategory == 1" (click)="this.currentCategory = 1">Advice</span>
+            <!-- <span id="2_" class="selector">Analyzer</span> -->
+        </div>
+        <div class="c-item" [class.transparent]="this.currentCategory !== 0">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="c-image-container">
+                            <img class="features-image-1"src="assets/iphone-chapters.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <p class="bold" style="font-size: 16px;">The reports provide you unique insights to better understand your strengths, as well as your weaknesses</p>
+                        <div class="chapter-type">
+                            <p class="bold"><img src="assets/Profile.svg">Identity</p>
+                            <p class="chapter-description">Reveal key features of your personality. Learn more about your patterns<br>Discover your personality type<br>Realize your core strengths and skills</p>
+                        </div>
+                        <div class="chapter-type">
+                            <p class="bold"><img src="assets/Work.svg">Career</p>
+                            <p class="chapter-description">Get a clear vision on your career<br>Explore your talents<br>Determine your goals<br>Plan your career</p>
+                        </div>
+                        <div class="chapter-type">
+                            <p class="bold"><img src="assets/Heart.svg">Love</p>
+                            <p class="chapter-description">Understand your romantic preferences<br>Discover your love style<br>Activate your secret weapons in love<br>Find out who’s your perfect match</p>
+                        </div>
+                        <div class="chapter-type">
+                            <p class="bold"><img src="assets/lotus 2.svg">Soul</p>
+                            <p class="chapter-description">Reveal your psychological patterns<br>Explore your karmic mission</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="c-item" [class.transparent]="this.currentCategory !== 1">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="c-image-container">
+                            <img class="features-image-2" src="assets/iphone-tasks.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <p class="bold" style="font-size: 16px;">You will be assigned self-improvement tasks based on your psychological profile to improve in the areas you struggle the most</p>
+                        <div class="inner-container">
+                            <p class="chapter-description">By following our weekly insights and tasks curated by our expert team, you will experience great results. You will be able to track your progress as a “percent complete” in each category of your psychological profile and earn trophies as you go</p>
+                            <img src="assets/tasksdone.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="c-item transparent">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="c-image-container">
+                            <img class="features-image-3" src="assets/images/iphone-analyzer.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <p class="bold" style="font-size: 16px;">The Analyzer is brand new section that allows you to learn how to interact with others</p>
+                        <div class="inner-container">
+                            <p class="chapter-description">By answering questions about your acquaintance, our application builds their psychological profile in their professional and personal lives. If you want to impanct or influence someone else in their life, this tab will quickly become go-to tool</p>
+                            <img src="assets/images/analyzerperson.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </div>
+</div>
+<div id="download">
+    <div class="download-content">
+        <p class="bold">Take back control of your life</p>
+        <p>Come to a deeper, spiritual, and cosmic understanding of yourself, and start making conscious, purposeful choices every day!</p>
+        <a href="https://apps.apple.com/app/adviseme-life-advisor-coach/id1536711786"><img src="assets/AppStore.svg" alt=""></a>
+    </div>
+</div>
